@@ -1,3 +1,4 @@
+import Button from '../src/components/button'
 import Layout from './layouts/MainLayout'
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
           rutrum enim a ornare. Sed ac odio at tortor placerat posuere quis nec
           eros. Fusce non luctus risus, eget scelerisque urna.{' '}
         </p>
+
+        <Button />
         <p>
           Phasellus ex velit, ornare a pulvinar vel, pulvinar eget arcu.
           Curabitur lacinia, dui at feugiat tincidunt, urna enim laoreet arcu,
