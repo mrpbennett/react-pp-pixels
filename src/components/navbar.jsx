@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -17,18 +18,18 @@ const Navbar = () => {
               clipRule="evenodd"
             />
           </svg>
-          <span className="text-white font-semibold">Logo</span>
+          <span className="text-white font-semibold">PulsePoint</span>
         </div>
         <div>
-          <a href="/" className="text-white hover:underline ml-4">
+          <Link to={`/`} className="text-white hover:underline ml-4">
             Home Page
-          </a>
-          <a href="/secondpage" className="text-white hover:underline ml-4">
+          </Link>
+          <Link to={`/secondpage`} className="text-white hover:underline ml-4">
             Second Page
-          </a>
-          <a href="/thirdpage" className="text-white hover:underline ml-4">
+          </Link>
+          <Link to={`/thirdpage`} className="text-white hover:underline ml-4">
             Third Page
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
