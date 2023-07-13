@@ -1,6 +1,12 @@
 # How to add PulsePoint Pixels in a React website
 
-This is a basic walkthrough of how to fire a pixel using React.
+This is a basic walkthrough of how to fire a pixel using React. When looking
+throught the live site:
+
+[https://react-pp-pixels.vercel.app](https://react-pp-pixels.vercel.app/)
+
+This is implemented using the GTM method as this is the method we recommend for
+use of development.
 
 The website has 3 main pages, that consist of:
 
@@ -104,7 +110,8 @@ want to track a conversion.
 
 For this example, we're going to use a button, where we're able to track a
 button click firing off the pixel. We first need to create a button component, I
-have created one [here](https://github.com/mrpbennett/react-pp-pixels/blob/main/option-1/src/components/button.jsx)
+have created one
+[here](https://github.com/mrpbennett/react-pp-pixels/blob/main/option-1/src/components/button.jsx)
 
 The button below is what we call a reusable component, this is because we're
 passing 3 props which allow us to change their attributes for our needs, but
