@@ -104,7 +104,7 @@ want to track a conversion.
 
 For this example, we're going to use a button, where we're able to track a
 button click firing off the pixel. We first need to create a button component, I
-have created one [here](http://...)
+have created one [here](https://github.com/mrpbennett/react-pp-pixels/blob/main/option-1/src/components/button.jsx)
 
 The button below is what we call a reusable component, this is because we're
 passing 3 props which allow us to change their attributes for our needs, but
