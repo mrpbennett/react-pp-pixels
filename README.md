@@ -42,7 +42,7 @@ You shouldn't have to worry about routes, as these would be in place already
 unless you're building your website from scratch. The above is just an example
 to explain the way this test environment was created.
 
-# [Option 1]()
+# [Option 1](https://github.com/mrpbennett/react-pp-pixels/tree/main/option-1)
 
 This is by far the simplest way to implement one of our pixels using React. Here
 we're going to be using the
