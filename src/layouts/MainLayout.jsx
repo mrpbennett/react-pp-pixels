@@ -10,7 +10,7 @@ const Layout = ({children}) => {
         {children}
       </main>
       <footer className="bg-gray-200 py-4 text-center">
-        <p>&copy; {new Date().getFullYear()}</p>
+        <p>&copy; {new Date().getFullYear()} : <a href="https://github.com/mrpbennett/react-pp-pixels">Full repo here</p>
       </footer>
     </div>
   )
